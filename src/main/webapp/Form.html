@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+<section>
+        <header>
+            <img src="img/logo.png" class="logo">
+            <ul>
+                <a href="HomePage.html">
+                    <li>Home</li>
+                </a>
+                <li> Produtos</li>
+            </ul>
+        </header>
+        <div id="form">
+            <form action="cadastrar">
+                <h2 class="titulo">Cadastrar</h2>
+                <label for="">Nome</label>
+                <div class="input">
+                    <input type="text" name="nome" placeholder="Nome" required="required">
+                </div>
+                <label for="">Sobrenome</label>
+                <div class="input">
+                    <input type="text" name="sbnome" placeholder="Sobrenome" required="required">
+                </div>
+                <label for="">Email</label>
+                <div class="input">
+                    <input type="email" name="email" placeholder="Email" required="required">
+                </div>
+                <label for="">Genero</label>
+                <div class="">
+                 	 <select name="sexo" id="">
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </div>
+                <label for="">Idade</label>
+                <div class="input">
+                    <input type="number" name="idade" placeholder="Idade" required="required">
+                </div>
+                
+                <div id="bt">
+                    <button type="submit" value="enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

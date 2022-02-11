@@ -1,0 +1,120 @@
+@charset "ISO-8859-1";
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+section{
+    position: relative;
+    width: auto;
+    height:73vh;
+    min-height: auto;
+    padding: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.5s;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+
+}
+header ul{
+    position: relative;
+    display: flex;
+
+
+}
+header li{
+    list-style: none;
+    font-size: 1.8em;
+    
+
+}
+header ul li{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.img{
+   margin-left: 10px;
+   margin-bottom: -12px ;
+}
+
+.cont{
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont .textbox{
+    position: relative;
+    max-width: 600px;
+    
+}
+.cont .textbox h2{
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.cont .textbox p{
+    font-size:2em;
+    color: #fff;
+}
+.cont .textbox span{
+    font-size: 2em;
+}
+.cont .textbox .button{
+    border: 10px solid #fff;
+    border-radius: 50px;
+    font-size: 1.5em;
+}
+.cont .imgbox{
+    width: 600px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+.cont .imgbox img{
+    max-width: 260px;
+}
+.social{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social li{
+    list-style: none;
+    margin-top: 30px;
+}
+.social img{
+    filter: invert(100%);
+}
